@@ -1,0 +1,4 @@
+<!--miniprogram/pages/article/article.wxml-->
+<rich-text nodes="{{ nodes }}"></rich-text>
+
+<v-divider contentPosition="center">完</v-divider>

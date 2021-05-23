@@ -1,0 +1,33 @@
+/* miniprogram/pages/gallery/gallery.wxss */
+
+.container {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.item {
+  width: 96%;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.my-img {
+  width: 100%;
+  height: 400rpx;
+  border-radius: 3px;
+  box-shadow: 0 3px 8px #aaa;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.img-description {
+  color: #888;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 3px;
+  font-size: 13px;
+}

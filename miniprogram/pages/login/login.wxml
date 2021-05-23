@@ -1,0 +1,15 @@
+<!--miniprogram/pages/login/login.wxml-->
+
+<image mode="widthFix" src="https://6f70-openv-1257263957.tcb.qcloud.la/illustration/welcome_cats.svg" style="width:60%;margin:20px auto;" />
+
+<v-cell-group>
+  <v-field value="{{ uid }}" type="number" placeholder="请输入学号" size="large" left-icon="contact" bind:blur="blur1" />
+  <v-field value="{{ psw }}" type="{{ field2.type }}" focus="{{ field2.isFocus }}" placeholder="请输入密码" border="{{ false }}" size="large" left-icon="other-pay" right-icon="{{ field2.rightIcon }}" bind:click-icon="onClickIcon" bind:blur="blur2" />
+</v-cell-group>
+
+<view class="btn-container">
+  <v-button round size="large" custom-style="width: 600rpx" type="primary" color="linear-gradient(to right bottom, #82E6F0, #1982F0)" loading="{{ btn1.isLoading }}" bind:click="btn1">登　录</v-button>
+  <v-button type="info" plain custom-style="border:none;background:none;" bind:click="btn2">使用微信一键登录</v-button>
+</view>
+
+<v-dialog id="van-dialog" />

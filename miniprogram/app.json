@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "pages/select-course/select-course",
+    "pages/teacher/teacher",
+    "pages/news/news",
+    "pages/user/user",
+    "pages/gallery/gallery",
+    "pages/grade-degree/grade-degree",
+    "pages/grade-semester/grade-semester",
+    "pages/schedule/schedule",
+    "pages/user-info/user-info",
+    "pages/article/article"
+  ],
+  "window": {
+    "backgroundColor": "#fafafa",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fafafa",
+    "navigationBarTitleText": "小立方® 教务管理",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "v-icon": "dist/icon/index",
+    "v-dialog": "dist/dialog/index",
+    "v-button": "dist/button/index",
+    "v-grid": "dist/grid/index",
+    "v-grid-item": "dist/grid-item/index",
+    "v-tabs": "dist/tabs/index",
+    "v-tab": "dist/tab/index",
+    "v-cell": "dist/cell/index",
+    "v-cell-group": "dist/cell-group/index",
+    "v-tag": "dist/tag/index",
+    "v-divider": "dist/divider/index",
+    "v-image": "dist/image/index",
+    "v-collapse": "dist/collapse/index",
+    "v-collapse-item": "dist/collapse-item/index",
+    "v-checkbox": "dist/checkbox/index",
+    "v-checkbox-group": "dist/checkbox-group/index",
+    "v-tabbar": "dist/tabbar/index",
+    "v-tabbar-item": "dist/tabbar-item/index",
+    "v-overlay": "dist/overlay/index",
+    "v-field": "dist/field/index"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/main/main"
+      },
+      {
+        "pagePath": "pages/news/news"
+      },
+      {
+        "pagePath": "pages/user/user"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

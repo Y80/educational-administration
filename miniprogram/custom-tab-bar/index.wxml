@@ -1,0 +1,5 @@
+<v-tabbar active="{{ active }}" bind:change="onChange">
+  <v-tabbar-item icon="home-o">首页</v-tabbar-item>
+  <v-tabbar-item icon="newspaper-o">资讯</v-tabbar-item>
+  <v-tabbar-item icon="friends-o">用户</v-tabbar-item>
+</v-tabbar>

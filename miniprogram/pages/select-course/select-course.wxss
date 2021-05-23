@@ -1,0 +1,32 @@
+.my-title {
+  width: 100%;
+  height: 80px;
+  line-height: 75px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 10px;
+  box-shadow: 0 3px 10px #aaa;
+  font-weight: 500;
+  color: #eee;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.cb-group {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.cb {
+  margin: 30rpx 0;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.space-right {
+  margin-right: 3px;
+}

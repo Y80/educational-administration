@@ -1,0 +1,14 @@
+<image mode='widthFix' src="https://6f70-openv-1257263957.tcb.qcloud.la/illustration/navigator.svg" style="width:90%;margin:20px auto;" />
+
+<!-- 滚动通知栏 -->
+<v-notice-bar left-icon="volume" text="{{ noticeText }}" />
+
+<!-- 业务功能选择区 -->
+<view class="cards">
+  <navigator class="card" wx:for="{{ cards }}" wx:key="text" url="{{ item.url }}" style="{{ item.style }}">
+    <v-icon name="{{ item.icon }}" size="80rpx" />
+    <view class="card-title" style="">{{ item.text }}</view>
+  </navigator>
+</view>
+
+<view class='footer card-title'>更多功能，即将上线！ </view>

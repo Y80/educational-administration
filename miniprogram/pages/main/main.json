@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "v-notice-bar": "../../dist/notice-bar/index"
+  }
+}

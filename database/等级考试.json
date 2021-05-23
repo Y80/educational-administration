@@ -1,0 +1,61 @@
+{
+    "content": [
+        {
+            "course": "大学英语四级",
+            "bestScore": "477",
+            "history": [
+                {
+                    "time": "2017-05",
+                    "score": "381"
+                },
+                {
+                    "time": "2017-12",
+                    "score": "477"
+                }
+            ]
+        },
+        {
+            "course": "大学英语六级",
+            "bestScore": "381",
+            "history": [
+                {
+                    "time": "2018-05",
+                    "score": "325"
+                },
+                {
+                    "time": "2018-12",
+                    "score": "368"
+                },
+                {
+                    "time": "2019-05",
+                    "score": "381"
+                }
+            ]
+        },
+        {
+            "course": "二级 C语言",
+            "bestScore": "95",
+            "history": [
+                {
+                    "time": "2017-11",
+                    "score": "95"
+                }
+            ]
+        },
+        {
+            "course": "二级 办公软件",
+            "bestScore": "90",
+            "history": [
+                {
+                    "time": "2018-04",
+                    "score": "75"
+                },
+                {
+                    "time": "2018-11",
+                    "score": "90"
+                }
+            ]
+        }
+    ],
+    "uid": "16219111131"
+}

@@ -1,0 +1,29 @@
+<v-tabs active="Mon" animated="true" swipe-threshold="5" color="#1989fa">
+
+  <v-tab wx:for="{{ items }}" wx:key="day" title="{{ item.day }}" name="{{ item.day }}">
+
+    <v-cell-group border="{{ false }}" wx:for="{{ item.course }}" wx:key="name" wx:for-item="course" custom-class="cell-group-root">
+      <view class="course-name">
+        <view style="margin-right:5px;font-size:18px;color:#666;font-weight: 500;">{{ course.name }}</view>
+        <v-tag wx:if="{{ course.type==='必修' }}" type="primary" style="display:flex;">必修</v-tag>
+        <v-tag wx:if="{{ course.type==='选修' }}" type="success" style="display:flex;">选修</v-tag>
+      
+      
+      </view>
+
+      <!-- 上课时间 -->
+      <v-cell icon="underway" title="时间" value="{{ course.time }}" custom-class="cell-root" />
+
+      <!-- 上课地点 -->
+      <v-cell icon="location" title="地点" custom-class="cell-root" value="{{ course.address }}" />
+
+      <!-- 任课老师 -->
+      <v-cell border="{{ false }}" icon="manager" title="讲师" value="{{ course.teacher }}" custom-class="cell-root" />
+    </v-cell-group>
+
+  </v-tab>
+
+</v-tabs>
+
+
+<image mode="widthFix" src="https://6f70-openv-1257263957.tcb.qcloud.la/illustration/schedule.svg" style="width:60%;margin:20px auto 0;"/>

@@ -1,0 +1,47 @@
+<view class="header">
+  <view class="avatar">
+    <open-data type="userAvatarUrl" />
+  </view>
+  <view class="userInfo">
+    <view>{{ name }} 👨‍🎓</view>
+    <view style="margin-top:15rpx;letter-spacing:0;">{{ major }}</view>
+  </view>
+</view>
+
+<v-cell-group style="margin: 2em 0;">
+  <v-cell title="个人信息" icon="user-o" is-link url="/pages/user-info/user-info" />
+  <v-cell title="学期日历" icon="calender-o" is-link bind:click="onClickShowCalender" />
+  <v-cell title="绑定微信{{ addBindWechatText }}" icon="star-o" is-link bind:click="{{ bindWechatClick }}" />
+  <v-cell title="修改密码" icon="edit" is-link bind:click="onClickShowPswEditor" />
+  <v-cell title="切换账户" icon="exchange" is-link bind:click="goLogin" />
+</v-cell-group>
+
+<v-cell-group>
+  <v-cell icon="smile-o" is-link>
+    <view slot="title">
+      <v-button open-type='feedback' custom-style="border:none;height:inherit;padding:inherit;padding-right:400rpx;">意见反馈</v-button>
+    </view>
+  </v-cell>
+</v-cell-group>
+
+<!-- <v-icon name="https://6f70-openv-1257263957.tcb.qcloud.la/bg-6.png" size="400rpx" /> -->
+<image mode="widthFix" src="https://6f70-openv-1257263957.tcb.qcloud.la/illustration/researching.svg" style="width:40%;margin:80px auto;" />
+
+
+<v-overlay z-index='10000' show="{{ showCalender }}" bind:click="onClickHideCalender">
+  <view class="wrapper">
+    <image src="{{ calenderSrc }}" mode="widthFix" style="width:100%" />
+  </view>
+</v-overlay>
+
+<v-overlay z-index='10000' show="{{ showPswEditor }}" bind:click="onClickHidePswEditor">
+  <view class="wrapper">
+    <v-cell-group border="{{ false }}" custom-class="psw-editor" catchtap="nullFunc">
+      <v-field label="旧密码" password value="{{ lastPsw }}" placeholder="请输入旧密码" bind:blur="onBlurLastPsw" />
+      <v-field label="新密码" password value="{{ newPsw }}" placeholder="请输入新密码" bind:blur="onBlurNewPsw" />
+      <v-button type="info" size="small" loading="{{ pswCommitLoading }}" custom-style="margin-top: 10px;" bind:click="onClickPswCommit">提交</v-button>
+    </v-cell-group>
+  </view>
+</v-overlay>
+
+<v-dialog id='van-dialog' />

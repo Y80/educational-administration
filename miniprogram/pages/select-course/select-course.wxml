@@ -1,0 +1,23 @@
+<view class="my-title">在线选课</view>
+
+<v-checkbox-group value="{{ checkedItems }}" bind:change="onChange" class="cb-group" max="1">
+
+  <v-checkbox wx:for="{{ course }}" wx:key="name" name="{{ item.name }}" custom-class="cb">
+    <view class="info">
+      <view class="space-right">{{ item.name }}</view>
+      <v-tag round="true" plain="true" type="danger" custom-class="space-right">剩余:{{ item.remains }}</v-tag>
+      <v-tag round="true" plain="true" type="success" custom-class="space-right">学分:{{ item.credit }}</v-tag>
+      <v-tag round="true" plain="true" type="primary" custom-class="space-right">周学时:{{ item.period }}</v-tag>
+    </view>
+  </v-checkbox>
+
+  <view style="font-size: 12px;color: #888;font-style: italic;margin-bottom: 20px;">注：每人仅能限选 1 门课</view>
+
+</v-checkbox-group>
+
+<v-button type="info" disabled="{{ btnCommit.disabled }}" size="large" round="true" custom-class="my-btn" style="width:80%;margin:0 auto;" bind:click="submit" color="linear-gradient(to right bottom, #82E6F0, #1982F0)" loading="{{ btnCommit.isLoading }}" loading-text="请稍候">
+  {{ btnCommit.text }}
+</v-button>
+
+
+<v-dialog id="van-dialog" />

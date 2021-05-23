@@ -1,0 +1,13 @@
+{
+  "name": "educational-administration",
+  "version": "1.0.0",
+  "description": "教务管理系统，小程序版本，使用云开发实现后端支持。",
+  "main": "miniprogram/app.js",
+  "repository": "https://github.com/Y80/educational-administration",
+  "author": "https://github.com/y80",
+  "license": "apache-2.0",
+  "dependencies": {
+    "@types/wechat-miniprogram": "^3.3.0",
+    "dotenv": "^10.0.0"
+  }
+}

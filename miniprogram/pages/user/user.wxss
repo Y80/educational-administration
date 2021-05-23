@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  margin: 30rpx auto;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  display: black;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  margin: 10px 20px 10px 2em;
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.userInfo {
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 1em;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.psw-editor {
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  border: none;
+}

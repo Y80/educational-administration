@@ -1,0 +1,23 @@
+<image mode="widthFix" src="https://6f70-openv-1257263957.tcb.qcloud.la/illustration/booking.svg" style="width:60%;margin:20px auto 0;"/>
+
+
+<view class="card" wx:for="{{ items }}">
+  <view class="card-title">
+    <view style="display:flex;margin-bottom: 5px;justify-content:center">
+      <view style="font-size: 1.4em;font-weight: 600;color: #222;letter-spacing: 2px;">{{ item.course }}</view>
+      <v-tag wx:if="{{ item.type==='必修课' }}" type="primary">{{ item.type }}</v-tag>
+      <v-tag wx:elif="{{ item.type==='任选课' }}" type="warning">{{ item.type }}</v-tag>
+      <v-tag wx:else type="success">{{ item.type }}</v-tag>
+    </view>
+    <view>{{ item.score }} 分</view>
+  </view>
+
+  <v-collapse value="{{ activeNames }}" bind:change="onChange" style="border-radius: 10px;">
+    <v-collapse-item title="查看更多" name="{{ item.course }}" content-class="my-content">
+      <v-cell title="学分" value="{{ item.credit }}" />
+      <v-cell title="绩点" value="{{ item.achievementPoint }}" />
+      <v-cell title="课程代码" value="{{ item.courseId }}" />
+      <v-cell border="{{ false }}" title="开课学院" value="{{ item.academy }}" />
+    </v-collapse-item>
+  </v-collapse>
+</view>

@@ -1,0 +1,34 @@
+.my-row {
+  background: #fff;
+  width: 95%;
+  margin: 30rpx auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30rpx 0;
+}
+
+.my-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col1 {
+  
+}
+
+.col2 {
+  width: 60%;
+  /* margin: 20px 0; */
+}
+
+
+.my-cell {
+  padding: 5px 0 !important;
+}
+
+.van-cell__value {
+  flex: 2 !important;
+}

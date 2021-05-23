@@ -1,0 +1,8 @@
+<!--miniprogram/pages/gallery/gallery.wxml-->
+
+<image mode="widthFix" src="https://6f70-openv-1257263957.tcb.qcloud.la/illustration/moments.svg" style="width:30%;margin:20px auto;"/>
+
+<view class="item" wx:for="{{ items }}" wx:key="src">
+  <image class="my-img" mode="widthFix" lazy-load="true" src="{{ item.src }}"/>
+  <text class="img-description">{{ item.text }}</text>
+</view>

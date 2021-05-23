@@ -1,0 +1,13 @@
+<view class='my-row' wx:for="{{ teachers }}" wx:key="name">
+  <view class="my-col col1">
+    <v-image src="{{ item.avator }}" width="100" height="100" fit="cover" round="true" lazy-load/>
+    <view style="text-align:center">{{ item.name }}</view>
+  </view>
+
+  <view class="my-col col2">
+    <v-cell title="办公地址" value="{{ item.address }}" custom-class="my-cell" />
+    <v-cell title="联系方式" value="{{ item.phone }}" custom-class="my-cell" />
+    <v-cell border="{{ false }}" title="任课科目" value="{{ item.course }}" custom-class="my-cell" />
+  </view>
+
+</view>

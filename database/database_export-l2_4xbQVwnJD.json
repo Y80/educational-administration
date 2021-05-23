@@ -1,0 +1,128 @@
+{
+    "content": {
+        "Mon": {
+            "count": 3,
+            "course": [
+                {
+                    "name": "数据仓库与数据挖掘",
+                    "type": "选修",
+                    "time": "8:10 ~ 9:50",
+                    "address": "北-5-217",
+                    "teacher": "谢翠华"
+                },
+                {
+                    "name": "爬虫与数据分析",
+                    "type": "选修",
+                    "time": "10:10 ~ 11:50",
+                    "address": "北-5-510",
+                    "teacher": "邱儒"
+                },
+                {
+                    "name": "WEB应用系统开发综合实验",
+                    "type": "必修",
+                    "time": "13:30 ~ 5:10",
+                    "address": "北-7-702",
+                    "teacher": "潘俊"
+                }
+            ]
+        },
+        "Tue": {
+            "count": 3,
+            "course": [
+                {
+                    "name": "移动应用开发综合实验",
+                    "type": "必修",
+                    "time": "8:10 ~ 11:50",
+                    "address": "北-7-414",
+                    "teacher": "潘俊"
+                },
+                {
+                    "name": "中国近现代史纲要",
+                    "type": "必修",
+                    "time": "13:30 ~ 15:10",
+                    "address": "北-4-214",
+                    "teacher": "胡小平"
+                },
+                {
+                    "name": "Windows应用系统开发综合实验",
+                    "type": "必修",
+                    "time": "18:30 ~ 20:10",
+                    "address": "北-7-410",
+                    "teacher": "潘俊"
+                }
+            ]
+        },
+        "Wed": {
+            "count": 3,
+            "course": [
+                {
+                    "name": "SSH框架开发技术",
+                    "type": "必修",
+                    "time": "8:10 ~ 9:50",
+                    "address": "北-5-506",
+                    "teacher": "邹董董"
+                },
+                {
+                    "name": "XML程序设计",
+                    "type": "必修",
+                    "time": "10:10 ~ 11:50",
+                    "address": "北-7-410",
+                    "teacher": "柳幼松"
+                },
+                {
+                    "name": "爬虫与数据分析",
+                    "type": "选修",
+                    "time": "13:30 ~ 15:10",
+                    "address": "北-7-403",
+                    "teacher": "邱儒"
+                }
+            ]
+        },
+        "Thu": {
+            "count": 3,
+            "course": [
+                {
+                    "name": "IT项目管理",
+                    "type": "必修",
+                    "time": "8:10 ~ 9:50",
+                    "address": "北-5-208",
+                    "teacher": "邓文华"
+                },
+                {
+                    "name": "XML程序设计",
+                    "type": "必修",
+                    "time": "10:10 ~ 11:50",
+                    "address": "北-5-506",
+                    "teacher": "柳幼松"
+                },
+                {
+                    "name": "SSH框架开发技术",
+                    "type": "必修",
+                    "time": "13:30 ~ 15:10",
+                    "address": "北-7-406",
+                    "teacher": "邹董董"
+                }
+            ]
+        },
+        "Fri": {
+            "count": 2,
+            "course": [
+                {
+                    "name": "Linux操作系统",
+                    "type": "选修",
+                    "time": "8:10 ~ 11:50",
+                    "address": "北-7-706",
+                    "teacher": "李名标"
+                },
+                {
+                    "name": "移动应用开发综合实验",
+                    "type": "必修",
+                    "time": "18:30 ~ 20:10",
+                    "address": "北-7-414",
+                    "teacher": "潘俊"
+                }
+            ]
+        }
+    },
+    "sum": 14
+}

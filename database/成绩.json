@@ -1,0 +1,50 @@
+{
+    "content": [
+        {
+            "course": "中国近现代史纲要",
+            "type": "必修课",
+            "score": "75",
+            "academy": "法学与思政学院",
+            "courseId": "30010109",
+            "credit": "2.0",
+            "achievementPoint": "2.50"
+        },
+        {
+            "course": "Linux操作系统",
+            "type": "任选课",
+            "score": "90",
+            "academy": "数学与信息工程学院",
+            "courseId": "30830239",
+            "credit": "2.5",
+            "achievementPoint": "4.00"
+        },
+        {
+            "course": "WEB应用系统开发综合实验",
+            "type": "限选课",
+            "score": "94",
+            "academy": "数学与信息工程学院",
+            "courseId": "30830424",
+            "credit": "1.0",
+            "achievementPoint": "4.40"
+        },
+        {
+            "course": "移动应用开发综合实验",
+            "type": "限选课",
+            "score": "99",
+            "academy": "数学与信息工程学院",
+            "courseId": "30830533",
+            "credit": "1.0",
+            "achievementPoint": "4.90"
+        },
+        {
+            "course": "爬虫与数据分析",
+            "type": "任选课",
+            "score": "85",
+            "academy": "数学与信息工程学院",
+            "courseId": "30830787",
+            "credit": "3.0",
+            "achievementPoint": "3.50"
+        }
+    ],
+    "uid": "16219111131"
+}

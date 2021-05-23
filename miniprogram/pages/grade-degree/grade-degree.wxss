@@ -1,0 +1,33 @@
+.card {
+  width: 95%;
+  margin: 30rpx auto;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #fcfcfc, white);
+  /* background: white; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-title {
+  height: 215rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #222;
+  text-shadow: 1px 1px 3px #fff;
+  align-items: center;
+}
+
+.course {
+  font-weight: 600;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+  letter-spacing: 3px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}

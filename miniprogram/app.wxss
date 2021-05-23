@@ -1,0 +1,7 @@
+page {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-bottom: 50px;
+  background: #fafafa;
+}

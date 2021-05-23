@@ -1,0 +1,19 @@
+<image mode="widthFix" src="https://6f70-openv-1257263957.tcb.qcloud.la/illustration/setup_wizard.svg" style="width:60%;margin:20px auto;"/>
+<view class="card" wx:for="{{ items }}" wx:key="course">
+  <view class="card-title">
+    <view class="course">{{ item.course }}</view>
+    <view>{{ item.bestScore }} 分</view>
+  </view>
+  <v-collapse value="{{ activeNames }}" bind:change="onChange">
+    <v-collapse-item title="历史记录" name="{{ item.course }}" content-class="my-content">
+      <view class="detail-item">
+        <view>考试时间</view>
+        <view>得分</view>
+      </view>
+      <view class="detail-item" wx:for="{{ item.history }}" wx:key="time" wx:for-item="history">
+        <view>{{ history.time }}</view>
+        <view>{{ history.score }}</view>
+      </view>
+    </v-collapse-item>
+  </v-collapse>
+</view>

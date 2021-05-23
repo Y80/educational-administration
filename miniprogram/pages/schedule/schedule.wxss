@@ -1,0 +1,21 @@
+.course-name {
+  display: initial;
+  font-size: 1.4em;
+  margin-right: 5px;
+  font-weight: 800;
+}
+
+.cell-group-root {
+  width: 90% !important;
+  margin: 1em auto 0 !important;
+}
+
+.cell-root {
+  padding-bottom: 0 !important;
+}
+
+.course-name {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 5px 10px; 
+}

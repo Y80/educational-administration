@@ -1,0 +1,13 @@
+<v-image src="https://6f70-openv-1257263957.tcb.qcloud.la/view1.jpg" width="100%" height="220" fit="cover" />
+
+<view wx:for="{{ items }}" wx:key="date">
+  <v-divider contentPosition="center" dashed="true">
+    {{ item.date }}
+  </v-divider>
+
+  <view class="content">
+    <navigator wx:for="{{ item.navigateInfo }}" wx:key="title" wx:for-item="info" url="/pages/article/article?id={{ info.url }}" class="item">{{ info.title }}</navigator>
+  </view>
+</view>
+
+<v-divider contentPosition="center">已加载全部</v-divider>
