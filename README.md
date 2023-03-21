@@ -5,11 +5,11 @@
 
 <img src="https://raw.githubusercontent.com/Y80/educational-administration/master/images/image.png" width="300" alt="登录页面">
 
-<img src="https://raw.githubusercontent.com/Y80/educational-administration/master/images/image (1).png" width="300" alt="首页">
+<img src="https://raw.githubusercontent.com/Y80/educational-administration/master/images/image1.png" width="300" alt="首页">
 
-<img src="https://raw.githubusercontent.com/Y80/educational-administration/master/images/image (2).png" width="300" alt="个人中心">
+<img src="https://raw.githubusercontent.com/Y80/educational-administration/master/images/image2.png" width="300" alt="个人中心">
 
-<img src="https://raw.githubusercontent.com/Y80/educational-administration/master/images/image (3).png" width="300" alt="课表">
+<img src="https://raw.githubusercontent.com/Y80/educational-administration/master/images/image3.png" width="300" alt="课表">
 
-<img src="https://raw.githubusercontent.com/Y80/educational-administration/master/images/image (4).png" width="300" alt="在线选课">
+<img src="https://raw.githubusercontent.com/Y80/educational-administration/master/images/image4.png" width="300" alt="在线选课">
 
